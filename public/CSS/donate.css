@@ -1,0 +1,108 @@
+.body-style
+{
+        background-color: #E2DCC8;
+}
+
+.navbar {
+    padding: 0;
+      
+  }
+  
+  .navbar ul {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    list-style: none;
+    align-items: center;
+  }
+  
+  .navbar li {
+    position: relative;
+  }
+  
+  .navbar>ul>li {
+    margin-left: 5px;
+  }
+  
+.search-btn
+{
+    height: 20%;
+}
+
+#location{
+    width: 100%;
+    padding: 5%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.searchbar{
+    width: 100%;
+    max-width: 500px;
+    background: rgba(90, 80, 80, 0.2);
+    display: flex;
+    margin-left: 25%;
+    align-items: center;
+    border-radius: 60px;
+    padding: 5px 20px;
+}
+
+.searchbar input{
+    background: transparent;
+    flex: 1;
+    border: 0;
+    outline: none;
+    padding: 24px 20px;
+    font-size: 20px;
+    color: #4a4339;
+}
+
+.searchbar button img{
+    width: 25px;
+}
+
+.searchbar button{
+    border: 0;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    background: #4b514b;
+    cursor: pointer;
+}
+
+.card
+{
+    background-color: #FCF8E8;
+    margin: 5% 10%;
+    border: 4px dotted blue;
+}
+/* .company
+{
+    border-color : rgb(128, 127, 127);
+    border-style: dotted;
+    border-radius: 50%;
+    border-width: 2px;
+} */
+.card :hover{
+    background-color: #F7F5F2;
+}
+
+.card-title
+{
+    font-family: 'Prompt', sans-serif;
+    text-align: center;
+    margin-top: 30%;
+    padding-top: 5%;
+}
+
+.card-text
+{
+    size: 20cm;
+    color: gray;
+}
+
+.card-btn
+{
+    background-color: #ABC4AA;
+}
